@@ -1,0 +1,67 @@
+body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+    color: black;
+    background-image: url(../images/bg.png);
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid #333;
+}
+
+nav > ul {
+    list-style: none;
+    margin: 0;
+    margin-top: 32px;
+    padding: 0;
+    text-align: center;   
+}
+
+nav > ul > li {
+    display: inline; 
+    padding-left: 16px;
+    padding-right: 16px;
+}
+
+h1, h2, h3 {
+    font-family: 'Oswald', sans-serif;  
+}
+
+h2 {
+    border: double black 8px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+address {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+}
+
+article {
+    position: relative;
+    margin: 0 auto;
+}
+
+article p {
+    margin: 0 auto;
+}
+
+article p > strong {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#education ul {
+    list-style: none;
+    padding-left: 0;
+}
