@@ -1,0 +1,72 @@
+* {
+    color: black;
+    background: transparent;
+    font-size: 12 pt;
+}
+
+@page { 
+    margin: 0.5in; 
+}
+
+header nav, footer {
+    display: none;
+}
+
+a[href^="http://"]:after { 
+    content: " (" attr(href) ") "; 
+}
+
+body {
+    font-family: 'Playfair Display', serif;
+    color: black;
+}
+
+#container {
+    width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+nav {
+    display:  none;
+}
+
+h1, h2, h3 {
+    font-family: 'Neuton', serif;
+}
+
+h2 {
+    border: double black 8px;
+    text-align: center;
+}
+
+h1, h2 {
+    text-align: center;
+}
+
+address {
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+}
+
+article {
+    position: relative;
+    margin: 0 auto;
+}
+
+article p {
+    margin: 0 auto;
+}
+
+article p > strong {
+    position: absolute;
+    top: 0;
+    right: 0;
+    font-family: 'Oswald', sans-serif;
+}
+
+#education ul {
+    list-style: none;
+    padding-left: 0;
+}
