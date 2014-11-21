@@ -25,6 +25,7 @@ body {
     width: 800px;
     margin: 0 auto;
     padding: 20px;
+    border: 0;
 }
 
 nav {
@@ -63,7 +64,7 @@ article p > strong {
     position: absolute;
     top: 0;
     right: 0;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Neuton', serif;
 }
 
 #education ul {
