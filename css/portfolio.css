@@ -1,0 +1,88 @@
+@import url(http://fonts.googleapis.com/css?family=Fredericka+the+Great);@import url(http://fonts.googleapis.com/css?family=Old+Standard+TT);
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background: #ddd;
+    width: 100%;
+}
+
+#masthead {
+    width: 840px;
+    margin: 0 auto;
+    position: relative;
+}
+
+header h1 {
+    display: inline-block;
+    margin: 0;
+    font-family: 'Fredericka the Great', cursive;
+}
+
+header nav ul {
+    list-style-type: none;
+    padding-left: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding-left: 3em;
+}
+
+main {
+    width: 840px;
+    margin: 0 auto;
+}
+
+#headshot img {
+   -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+   float: right;
+  padding-left: 36px;
+}
+
+#headshot p {
+    font-size: 20px;
+}
+
+h2 {
+    font-family: 'Old Standard TT', serif;
+}
+
+#mtv img {
+    -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+    width: 362px;
+    length: 256px;
+    float: right;
+}
+
+#um img {
+    -webkit-filter: grayscale(1);
+   filter: grayscale(1);
+    width: 362px;
+    length: 256px;
+    float: right;
+}
+
+p {
+    font-size: 18px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: purple;
+}
+
+a:hover {
+    color: black;
+}
