@@ -76,13 +76,13 @@ p {
 }
 
 a:link {
-    color: blue;
+    color: #2F4F4F;
 }
 
 a:visited {
-    color: purple;
+    color: #2F4F4F;
 }
 
 a:hover {
-    color: black;
+    color: #00FFFF;
 }
